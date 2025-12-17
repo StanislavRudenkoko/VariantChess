@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-thistle-DEFAULT: #dec9e9;
+  --color-thistle-100: #31193e;
+  --color-thistle-200: #62327b;
+  --color-thistle-300: #924eb7;
+  --color-thistle-400: #b88bd0;
+  --color-thistle-500: #dec9e9;
+  --color-thistle-600: #e4d4ed;
+  --color-thistle-700: #ebdef2;
+  --color-thistle-800: #f2e9f6;
+  --color-thistle-900: #f8f4fb;
+
+  --color-wisteria-DEFAULT: #d2b7e5;
+  --color-wisteria-100: #2d163d;
+  --color-wisteria-200: #592c79;
+  --color-wisteria-300: #8642b6;
+  --color-wisteria-400: #ac7bcf;
+  --color-wisteria-500: #d2b7e5;
+  --color-wisteria-600: #dbc6ea;
+  --color-wisteria-700: #e4d4f0;
+  --color-wisteria-800: #ede3f5;
+  --color-wisteria-900: #f6f1fa;
+
+  --color-bright_lavender-DEFAULT: #b185db;
+  --color-bright_lavender-100: #241036;
+  --color-bright_lavender-200: #48206c;
+  --color-bright_lavender-300: #6b31a3;
+  --color-bright_lavender-400: #8f4fca;
+  --color-bright_lavender-500: #b185db;
+  --color-bright_lavender-600: #c19ee2;
+  --color-bright_lavender-700: #d0b6e9;
+  --color-bright_lavender-800: #e0cef0;
+  --color-bright_lavender-900: #efe7f8;
+
+  --color-lavender_purple-DEFAULT: #a06cd5;
+  --color-lavender_purple-100: #200e32;
+  --color-lavender_purple-200: #401c64;
+  --color-lavender_purple-300: #602a96;
+  --color-lavender_purple-400: #813ac7;
+  --color-lavender_purple-500: #a06cd5;
+  --color-lavender_purple-600: #b489de;
+  --color-lavender_purple-700: #c6a7e6;
+  --color-lavender_purple-800: #d9c4ee;
+  --color-lavender_purple-900: #ece2f7;
+
+  --color-deep_lilac-DEFAULT: #815ac0;
+  --color-deep_lilac-100: #190f29;
+  --color-deep_lilac-200: #321f51;
+  --color-deep_lilac-300: #4b2e7a;
+  --color-deep_lilac-400: #643ea3;
+  --color-deep_lilac-500: #815ac0;
+  --color-deep_lilac-600: #9a7acd;
+  --color-deep_lilac-700: #b39bd9;
+  --color-deep_lilac-800: #ccbce6;
+  --color-deep_lilac-900: #e6def2;
+}
+
+:root {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen antialiased;
+  }
+}
+
